@@ -101,7 +101,7 @@ You can use the ShurjoPay class as an instance, within a class or by subclassing
       }
       ```
 
-- This ```ceckout_url``` will return an HTML shurjopay form you need to render this in your application for your users to complete the transaction.
+- This ```checkout_url``` will return an HTML shurjopay form you need to render this in your application for your users to complete the transaction.
 
     ![spform](sp.png)
 - After the transaction initialized customer action status will be sent through the return_url/cancel_url with a ```query string```  ```?order_id=[SpOrderId]``` merchant should store the id for future use.
