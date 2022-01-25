@@ -117,3 +117,8 @@ You can use the ShurjoPay class as an instance, within a class or by subclassing
   :param order_id:For transaction status, merchants must use order_id that is sent from shurjoPay during callback.
   ```
     - Response `JSON`
+
+### Postmane Documentations
+
+    This document will illustrate the overall request and response flow.
+    URL : https://documenter.getpostman.com/view/6335853/U16dS8ig	
