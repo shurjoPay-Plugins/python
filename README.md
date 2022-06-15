@@ -122,7 +122,7 @@ You can use the ShurjoPay class as an instance, within a class or by subclassing
     This document will illustrate the overall request and response flow.
     URL : https://documenter.getpostman.com/view/6335853/U16dS8ig	
 		
-### Who do I talk to? ###
+### Who do I talk to? ####
 	For any technical assistance please contact to: https://shurjopay.com.bd/#contacts
 
 
