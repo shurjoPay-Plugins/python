@@ -54,7 +54,7 @@ from shurjopay_v2.shurjopay import ShurjoPay
 
 #initialize with the test credentials
 
-verifypayment = shurjoPay.ShurjoPay(prefix="NOC", currency="BDT", return_url=[URL],cancel_url=[URL], client_ip=[IP],  username=[USERNAME], password=[PASSWORD], post_address=[SURJOPAY_URL])
+verifypayment = ShurjoPay(prefix="NOC", currency="BDT", return_url=[URL],cancel_url=[URL], client_ip=[IP],  username=[USERNAME], password=[PASSWORD], post_address=[SURJOPAY_URL])
 verifypayment.verify(order_id="NOC6188d03129212")
 
 ```
