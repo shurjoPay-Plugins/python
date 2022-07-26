@@ -43,7 +43,7 @@ from shurjopay_v2.shurjopay import ShurjoPay
 
 #initialize with the test credentials
 
-testpay = shurjoPay.ShurjoPay(prefix="NOC", currency="BDT", return_url=[URL],cancel_url=[URL], client_ip=[IP],  username=[USERNAME], password=[PASSWORD], post_address=[SURJOPAY_URL])
+testpay = ShurjoPay(prefix="NOC", currency="BDT", return_url=[URL],cancel_url=[URL], client_ip=[IP],  username=[USERNAME], password=[PASSWORD], post_address=[SURJOPAY_URL])
 testpay.checkout(1, "xyz123456789", "demo", "01682803595", "N/a", "dhaka")
 testpay.check_status(order_id="NOC6188d03129212")
 
