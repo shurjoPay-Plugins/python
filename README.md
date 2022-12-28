@@ -1,3 +1,6 @@
+## This plugin has been superseeded by [sp-plugin-python](https://github.com/shurjopay-plugins/sp-plugin-python). Please use that.
+
+
 ![shurjoPay](shurjoPay.png)
 # ShurjoPay
 
